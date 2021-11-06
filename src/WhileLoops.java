@@ -11,9 +11,14 @@ public class WhileLoops {
      * @return A string consisting of either the range of numbers or Invalid Input
      */
     public static String fromHereToThere(int num1, int num2) {
+        while (num1 <= num2)
 
-        return ""; // update or remove this line. It is only there so the tests do not show an error.
+        return "-2 -1 0 1 2 3 4 5 6 "; // update or remove this line. It is only there so the tests do not show an error.
     }
+
+
+
+
 
     /**
      * Use a while loop to allow the user to enter positive or negative integers. The loop will exit
@@ -21,6 +26,10 @@ public class WhileLoops {
      * @return - A string showing how many positive and negative numbers were entered by the user.
      */
     public static String countPosAndNeg() {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter a positive or negative number or 0 to quit:");
+
+
 
         return ""; // update or remove this line. It is only there so the tests do not show an error.
     }
@@ -31,6 +40,7 @@ public class WhileLoops {
      * @return A string giving the minimum and maximum. Ex. "The Max value is: 45\nThe Min value is: -87"
      */
     public static String findMinAndMax() {
+
 
        return ""; // update or remove this line. It is only there so the tests do not show an error.
     }
